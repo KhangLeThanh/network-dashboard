@@ -1,0 +1,225 @@
+import React, { useState, useEffect, useMemo } from "react";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableContainer,
+  TableHead,
+  TableRow,
+  TablePagination,
+  Typography,
+  IconButton,
+  Menu,
+  MenuItem,
+} from "@mui/material";
+import Grid from "@mui/material/Grid2";
+import MoreHorizOutlinedIcon from "@mui/icons-material/MoreHorizOutlined";
+import { Gateway } from "../../utils/types";
+import gatewayData from "../../data/gateway_listing_response.json";
+import FilteredGateway from "./FilteredGateway";
+import EditGatewayDialog from "./EditGatewayDialog";
+
+const GatewayTable: React.FC = () => {
+  const [gateways, setGateways] = useState<Gateway[]>([]);
+  const [status, setStatus] = useState<string>("");
+  const [model, setModel] = useState<string>("");
+  const [version, setVersion] = useState<string>("");
+  const [page, setPage] = useState(0);
+  const [rowsPerPage, setRowsPerPage] = useState(5);
+  const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
+  const [selectedGateway, setSelectedGateway] = useState<Gateway | null>(null);
+  const [editDialogOpen, setEditDialogOpen] = useState(false);
+
+  useEffect(() => {
+    setGateways(gatewayData.results);
+  }, []);
+
+  const handleFilterChange = ({
+    status,
+    model,
+    version,
+  }: {
+    status: string;
+    model: string;
+    version: string;
+  }) => {
+    setStatus(status);
+    setModel(model);
+    setVersion(version);
+    setPage(0); // Reset pagination when filter changes
+  };
+
+  // Filtering the gateways based on filter criteria (status, model, version)
+  const filteredGateways = useMemo(() => {
+    let filtered = gateways;
+    if (status)
+      filtered = filtered.filter((gateway) => gateway.status === status);
+    if (model)
+      filtered = filtered.filter((gateway) => gateway.model.includes(model));
+    if (version)
+      filtered = filtered.filter((gateway) =>
+        gateway.version.includes(version)
+      );
+    return filtered;
+  }, [gateways, status, model, version]);
+
+  // Sort filtered gateways by lastMessageRxTime (most recent first)
+  const sortedGateways = useMemo(() => {
+    return [...filteredGateways].sort(
+      (a, b) =>
+        b.gatewayStatistics.lastMessageRxTime -
+        a.gatewayStatistics.lastMessageRxTime
+    );
+  }, [filteredGateways]);
+
+  // Pagination logic
+  const paginatedGateways = useMemo(() => {
+    const startIndex = page * rowsPerPage;
+    return sortedGateways.slice(startIndex, startIndex + rowsPerPage);
+  }, [sortedGateways, page, rowsPerPage]);
+
+  const handleChangePage = (
+    _event: React.MouseEvent<HTMLButtonElement> | null,
+    newPage: number
+  ) => {
+    setPage(newPage);
+  };
+
+  const handleChangeRowsPerPage = (
+    event: React.ChangeEvent<HTMLInputElement>
+  ) => {
+    setRowsPerPage(parseInt(event.target.value, 10));
+    setPage(0);
+  };
+
+  const handleMenuClick = (
+    event: React.MouseEvent<HTMLButtonElement>,
+    gateway: Gateway
+  ) => {
+    setAnchorEl(event.currentTarget);
+    setSelectedGateway(gateway);
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+
+  const handleEditMenuItemClick = () => {
+    if (selectedGateway) {
+      setEditDialogOpen(true);
+      handleClose();
+    }
+  };
+
+  const handleEditConfirm = (updatedGateway: Gateway) => {
+    setGateways((prevGateways) =>
+      prevGateways.map((gateway) =>
+        gateway.gatewayId === updatedGateway.gatewayId
+          ? updatedGateway
+          : gateway
+      )
+    );
+    setEditDialogOpen(false);
+  };
+
+  // creating a column
+  const tableColumns = [
+    { columnDisplayName: "Gateway ID", columKey: "gatewayId" },
+    { columnDisplayName: "Status", columKey: "status" },
+    { columnDisplayName: "Model", columKey: "Model" },
+    { columnDisplayName: "Version", columKey: "version" },
+    {
+      columnDisplayName: "Last Message Time",
+      columKey: "lastMessageTime",
+    },
+    { columnDisplayName: "Actions", columKey: "action" },
+  ];
+  const columns = useMemo(() => tableColumns, []);
+  return (
+    <Grid
+      container
+      justifyContent="center"
+      alignItems="center"
+      sx={{ minHeight: "100vh", padding: 2 }}
+    >
+      <Grid size={12}>
+        <Typography variant="h4" align="center" gutterBottom>
+          Gateways
+        </Typography>
+        <FilteredGateway onFilterChange={handleFilterChange} />
+        <TableContainer>
+          <Table>
+            <TableHead>
+              <TableRow>
+                {columns.map((col) => (
+                  <TableCell key={col.columKey}>
+                    <Typography variant="h6">
+                      {col.columnDisplayName}
+                    </Typography>
+                  </TableCell>
+                ))}
+              </TableRow>
+            </TableHead>
+            <TableBody>
+              {paginatedGateways.map((gateway) => (
+                <TableRow
+                  key={gateway.uuid}
+                  sx={{
+                    backgroundColor:
+                      gateway.status === "OFFLINE" ? "red" : "transparent",
+                  }}
+                >
+                  <TableCell>{gateway.gatewayId}</TableCell>
+                  <TableCell>{gateway.status}</TableCell>
+                  <TableCell>{gateway.model}</TableCell>
+                  <TableCell>{gateway.version}</TableCell>
+                  <TableCell>
+                    {new Date(
+                      gateway.gatewayStatistics.lastMessageRxTime * 1000
+                    ).toLocaleString()}
+                  </TableCell>
+                  <TableCell>
+                    <IconButton
+                      onClick={(event) => handleMenuClick(event, gateway)}
+                    >
+                      <MoreHorizOutlinedIcon />
+                    </IconButton>
+                    <Menu
+                      anchorEl={anchorEl}
+                      open={Boolean(anchorEl)}
+                      onClose={handleClose}
+                    >
+                      <MenuItem onClick={handleEditMenuItemClick}>
+                        Edit
+                      </MenuItem>
+                    </Menu>
+                  </TableCell>
+                </TableRow>
+              ))}
+            </TableBody>
+          </Table>
+        </TableContainer>
+
+        {/* EditGatewayDialog */}
+        <EditGatewayDialog
+          isOpen={editDialogOpen}
+          onClose={() => setEditDialogOpen(false)}
+          onConfirm={handleEditConfirm}
+          gateway={selectedGateway}
+        />
+
+        <TablePagination
+          rowsPerPageOptions={[5, 10, 20]}
+          component="div"
+          count={filteredGateways.length}
+          rowsPerPage={rowsPerPage}
+          page={page}
+          onPageChange={handleChangePage}
+          onRowsPerPageChange={handleChangeRowsPerPage}
+        />
+      </Grid>
+    </Grid>
+  );
+};
+
+export default GatewayTable;

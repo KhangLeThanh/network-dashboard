@@ -1,0 +1,3732 @@
+{
+  "snapshotTime": 1703240680,
+  "summary": {
+    "startTime": 1703068200,
+    "endTime": 1703241000,
+    "startTimeStatus": "ACTIVE",
+    "endTimeStatus": "ACTIVE",
+    "timeInStatusesS": {
+      "active": 71959.73,
+      "inactive": 303.06,
+      "unstable": 605.98,
+      "offline": 99606.78
+    },
+    "statusTransitionCounts": {
+      "activeToInactive": 1,
+      "activeToUnstable": 1,
+      "inactiveToOffline": 2,
+      "inactiveToActive": 1,
+      "unstableToActive": 0,
+      "unstableToOffline": 1,
+      "offlineToActive": 1
+    }
+  },
+  "historySamples": [
+    {
+      "startTime": 1703240100,
+      "endTime": 1703241000,
+      "timeInStatusesS": {
+        "active": 580.33,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703239200,
+      "endTime": 1703240100,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703238300,
+      "endTime": 1703239200,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703237400,
+      "endTime": 1703238300,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703236500,
+      "endTime": 1703237400,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703235600,
+      "endTime": 1703236500,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703234700,
+      "endTime": 1703235600,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703233800,
+      "endTime": 1703234700,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703232900,
+      "endTime": 1703233800,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703232000,
+      "endTime": 1703232900,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703231100,
+      "endTime": 1703232000,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703230200,
+      "endTime": 1703231100,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703229300,
+      "endTime": 1703230200,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703228400,
+      "endTime": 1703229300,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703227500,
+      "endTime": 1703228400,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703226600,
+      "endTime": 1703227500,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703225700,
+      "endTime": 1703226600,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703224800,
+      "endTime": 1703225700,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703223900,
+      "endTime": 1703224800,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703223000,
+      "endTime": 1703223900,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703222100,
+      "endTime": 1703223000,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703221200,
+      "endTime": 1703222100,
+      "timeInStatusesS": {
+        "active": 882.59,
+        "inactive": 0.71,
+        "unstable": 0,
+        "offline": 14.61
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 1,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 1
+      }
+    },
+    {
+      "startTime": 1703220300,
+      "endTime": 1703221200,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703219400,
+      "endTime": 1703220300,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703218500,
+      "endTime": 1703219400,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703217600,
+      "endTime": 1703218500,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703216700,
+      "endTime": 1703217600,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703215800,
+      "endTime": 1703216700,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703214900,
+      "endTime": 1703215800,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703214000,
+      "endTime": 1703214900,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703213100,
+      "endTime": 1703214000,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703212200,
+      "endTime": 1703213100,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703211300,
+      "endTime": 1703212200,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703210400,
+      "endTime": 1703211300,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703209500,
+      "endTime": 1703210400,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703208600,
+      "endTime": 1703209500,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703207700,
+      "endTime": 1703208600,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703206800,
+      "endTime": 1703207700,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703205900,
+      "endTime": 1703206800,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703205000,
+      "endTime": 1703205900,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703204100,
+      "endTime": 1703205000,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703203200,
+      "endTime": 1703204100,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703202300,
+      "endTime": 1703203200,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703201400,
+      "endTime": 1703202300,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703200500,
+      "endTime": 1703201400,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703199600,
+      "endTime": 1703200500,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703198700,
+      "endTime": 1703199600,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703197800,
+      "endTime": 1703198700,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703196900,
+      "endTime": 1703197800,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703196000,
+      "endTime": 1703196900,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703195100,
+      "endTime": 1703196000,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703194200,
+      "endTime": 1703195100,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703193300,
+      "endTime": 1703194200,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703192400,
+      "endTime": 1703193300,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703191500,
+      "endTime": 1703192400,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703190600,
+      "endTime": 1703191500,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703189700,
+      "endTime": 1703190600,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703188800,
+      "endTime": 1703189700,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703187900,
+      "endTime": 1703188800,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703187000,
+      "endTime": 1703187900,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703186100,
+      "endTime": 1703187000,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703185200,
+      "endTime": 1703186100,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703184300,
+      "endTime": 1703185200,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703183400,
+      "endTime": 1703184300,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703182500,
+      "endTime": 1703183400,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703181600,
+      "endTime": 1703182500,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703180700,
+      "endTime": 1703181600,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703179800,
+      "endTime": 1703180700,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703178900,
+      "endTime": 1703179800,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703178000,
+      "endTime": 1703178900,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703177100,
+      "endTime": 1703178000,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703176200,
+      "endTime": 1703177100,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703175300,
+      "endTime": 1703176200,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703174400,
+      "endTime": 1703175300,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703173500,
+      "endTime": 1703174400,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703172600,
+      "endTime": 1703173500,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703171700,
+      "endTime": 1703172600,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703170800,
+      "endTime": 1703171700,
+      "timeInStatusesS": {
+        "active": 297.36,
+        "inactive": 300.18,
+        "unstable": 0,
+        "offline": 302.47
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 1,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 1,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703169900,
+      "endTime": 1703170800,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703169000,
+      "endTime": 1703169900,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703168100,
+      "endTime": 1703169000,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703167200,
+      "endTime": 1703168100,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703166300,
+      "endTime": 1703167200,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703165400,
+      "endTime": 1703166300,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703164500,
+      "endTime": 1703165400,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703163600,
+      "endTime": 1703164500,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703162700,
+      "endTime": 1703163600,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703161800,
+      "endTime": 1703162700,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703160900,
+      "endTime": 1703161800,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703160000,
+      "endTime": 1703160900,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703159100,
+      "endTime": 1703160000,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703158200,
+      "endTime": 1703159100,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703157300,
+      "endTime": 1703158200,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703156400,
+      "endTime": 1703157300,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703155500,
+      "endTime": 1703156400,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703154600,
+      "endTime": 1703155500,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703153700,
+      "endTime": 1703154600,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703152800,
+      "endTime": 1703153700,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703151900,
+      "endTime": 1703152800,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703151000,
+      "endTime": 1703151900,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703150100,
+      "endTime": 1703151000,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703149200,
+      "endTime": 1703150100,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703148300,
+      "endTime": 1703149200,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703147400,
+      "endTime": 1703148300,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703146500,
+      "endTime": 1703147400,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703145600,
+      "endTime": 1703146500,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703144700,
+      "endTime": 1703145600,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703143800,
+      "endTime": 1703144700,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703142900,
+      "endTime": 1703143800,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703142000,
+      "endTime": 1703142900,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703141100,
+      "endTime": 1703142000,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703140200,
+      "endTime": 1703141100,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703139300,
+      "endTime": 1703140200,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703138400,
+      "endTime": 1703139300,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703137500,
+      "endTime": 1703138400,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703136600,
+      "endTime": 1703137500,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703135700,
+      "endTime": 1703136600,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703134800,
+      "endTime": 1703135700,
+      "timeInStatusesS": {
+        "active": 891.33,
+        "inactive": 2.17,
+        "unstable": 0,
+        "offline": 3.8
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 1,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703133900,
+      "endTime": 1703134800,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703133000,
+      "endTime": 1703133900,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703132100,
+      "endTime": 1703133000,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703131200,
+      "endTime": 1703132100,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703130300,
+      "endTime": 1703131200,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703129400,
+      "endTime": 1703130300,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703128500,
+      "endTime": 1703129400,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703127600,
+      "endTime": 1703128500,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703126700,
+      "endTime": 1703127600,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703125800,
+      "endTime": 1703126700,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703124900,
+      "endTime": 1703125800,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703124000,
+      "endTime": 1703124900,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703123100,
+      "endTime": 1703124000,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703122200,
+      "endTime": 1703123100,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703121300,
+      "endTime": 1703122200,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703120400,
+      "endTime": 1703121300,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703119500,
+      "endTime": 1703120400,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703118600,
+      "endTime": 1703119500,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703117700,
+      "endTime": 1703118600,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703116800,
+      "endTime": 1703117700,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703115900,
+      "endTime": 1703116800,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703115000,
+      "endTime": 1703115900,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703114100,
+      "endTime": 1703115000,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703113200,
+      "endTime": 1703114100,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703112300,
+      "endTime": 1703113200,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703111400,
+      "endTime": 1703112300,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703110500,
+      "endTime": 1703111400,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703109600,
+      "endTime": 1703110500,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703108700,
+      "endTime": 1703109600,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703107800,
+      "endTime": 1703108700,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703106900,
+      "endTime": 1703107800,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703106000,
+      "endTime": 1703106900,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703105100,
+      "endTime": 1703106000,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703104200,
+      "endTime": 1703105100,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703103300,
+      "endTime": 1703104200,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703102400,
+      "endTime": 1703103300,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703101500,
+      "endTime": 1703102400,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703100600,
+      "endTime": 1703101500,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703099700,
+      "endTime": 1703100600,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703098800,
+      "endTime": 1703099700,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703097900,
+      "endTime": 1703098800,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703097000,
+      "endTime": 1703097900,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703096100,
+      "endTime": 1703097000,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703095200,
+      "endTime": 1703096100,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703094300,
+      "endTime": 1703095200,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703093400,
+      "endTime": 1703094300,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703092500,
+      "endTime": 1703093400,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703091600,
+      "endTime": 1703092500,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703090700,
+      "endTime": 1703091600,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703089800,
+      "endTime": 1703090700,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703088900,
+      "endTime": 1703089800,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703088000,
+      "endTime": 1703088900,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703087100,
+      "endTime": 1703088000,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703086200,
+      "endTime": 1703087100,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703085300,
+      "endTime": 1703086200,
+      "timeInStatusesS": {
+        "active": 0,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 900
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703084400,
+      "endTime": 1703085300,
+      "timeInStatusesS": {
+        "active": 8.12,
+        "inactive": 0,
+        "unstable": 605.98,
+        "offline": 285.9
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 1,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 1,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703083500,
+      "endTime": 1703084400,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703082600,
+      "endTime": 1703083500,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703081700,
+      "endTime": 1703082600,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703080800,
+      "endTime": 1703081700,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703079900,
+      "endTime": 1703080800,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703079000,
+      "endTime": 1703079900,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703078100,
+      "endTime": 1703079000,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703077200,
+      "endTime": 1703078100,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703076300,
+      "endTime": 1703077200,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703075400,
+      "endTime": 1703076300,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703074500,
+      "endTime": 1703075400,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703073600,
+      "endTime": 1703074500,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703072700,
+      "endTime": 1703073600,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703071800,
+      "endTime": 1703072700,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703070900,
+      "endTime": 1703071800,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703070000,
+      "endTime": 1703070900,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703069100,
+      "endTime": 1703070000,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    },
+    {
+      "startTime": 1703068200,
+      "endTime": 1703069100,
+      "timeInStatusesS": {
+        "active": 900,
+        "inactive": 0,
+        "unstable": 0,
+        "offline": 0
+      },
+      "statusTransitionCounts": {
+        "activeToInactive": 0,
+        "activeToUnstable": 0,
+        "inactiveToOffline": 0,
+        "inactiveToActive": 0,
+        "unstableToActive": 0,
+        "unstableToOffline": 0,
+        "offlineToActive": 0
+      }
+    }
+  ],
+  "statusChangeEvents": [
+    {
+      "statusChangeTime": 1703221217,
+      "status": "ACTIVE"
+    },
+    {
+      "statusChangeTime": 1703221206,
+      "status": "OFFLINE"
+    },
+    {
+      "statusChangeTime": 1703221204,
+      "status": "UNAVAILABLE"
+    },
+    {
+      "statusChangeTime": 1703221203,
+      "status": "INACTIVE"
+    },
+    {
+      "statusChangeTime": 1703171397,
+      "status": "OFFLINE"
+    },
+    {
+      "statusChangeTime": 1703171097,
+      "status": "INACTIVE"
+    },
+    {
+      "statusChangeTime": 1703134809,
+      "status": "ACTIVE"
+    },
+    {
+      "statusChangeTime": 1703134806,
+      "status": "UNAVAILABLE"
+    },
+    {
+      "statusChangeTime": 1703134806,
+      "status": "ACTIVE"
+    },
+    {
+      "statusChangeTime": 1703134803,
+      "status": "INACTIVE"
+    },
+    {
+      "statusChangeTime": 1703134803,
+      "status": "UNAVAILABLE"
+    },
+    {
+      "statusChangeTime": 1703085014,
+      "status": "OFFLINE"
+    },
+    {
+      "statusChangeTime": 1703084408,
+      "status": "UNSTABLE"
+    },
+    {
+      "statusChangeTime": 1703068200,
+      "status": "ACTIVE"
+    }
+  ]
+}

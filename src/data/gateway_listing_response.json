@@ -1,0 +1,650 @@
+{
+  "results": [
+    {
+      "uuid": "00fb1376-645d-414c-8345-8b6509733012",
+      "modificationTime": 1702462782,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink9Sink10",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": [
+        "bd1203a8-5317-40b6-9632-9fe42f727b7f",
+        "2273e828-c488-4d16-868f-56d6b5f7ed1d"
+      ],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "INACTIVE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462778
+      }
+    },
+    {
+      "uuid": "05033cda-27a8-45f7-bc21-851bdb3388c6",
+      "modificationTime": 1702462794,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink61Sink62",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": [
+        "91052388-a049-4de4-817e-8e18e4211513",
+        "aea3dfd3-67aa-46e4-831b-a2daaacef646"
+      ],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "ACTIVE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462793
+      }
+    },
+    {
+      "uuid": "0881ab16-edf4-4423-9c89-b203fb0eef42",
+      "modificationTime": 1702462796,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink59Sink60",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": [
+        "ded6518d-3021-4481-af3a-7dbb0c2f60d4",
+        "7d062b61-bb86-4548-8e4a-424bd669ad9a"
+      ],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "UNSTABLE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462794
+      }
+    },
+    {
+      "uuid": "18dd391b-50da-41fa-bcb8-76e0c634fa5f",
+      "modificationTime": 1702462790,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink25Sink26",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": [
+        "dd4aaa86-b1b6-4039-b77f-960de893ae96",
+        "f2f09fcf-68d4-4d42-8fd4-f67c03c3398d"
+      ],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "ACTIVE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462789
+      }
+    },
+    {
+      "uuid": "1a86bff8-975c-4a7c-816f-7d55e6dd62c8",
+      "modificationTime": 1702462778,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink45Sink46",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": [
+        "74fb06b3-7f93-4a08-be00-d9eee48d2b16",
+        "11780323-37e2-43cd-aa14-ec299985d75e"
+      ],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "OFFLINE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462776
+      }
+    },
+    {
+      "uuid": "1ccadcf6-2dde-4f6d-bfe3-c555f8164db5",
+      "modificationTime": 1702462778,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink7Sink8",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": [
+        "15f8352c-2744-46f5-b513-c5f6b41ba6ba",
+        "a34605c0-5f5c-45e4-83ec-461ed8a3c575"
+      ],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "ACTIVE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462777
+      }
+    },
+    {
+      "uuid": "2b489d7f-d0cf-4327-9d58-70f9a150a8af",
+      "modificationTime": 1702462790,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink21Sink22",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": [
+        "079b7e47-fc29-448d-98bf-5a898b690d06",
+        "2ac32094-65f6-4244-b48c-160fa0c54c87"
+      ],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "OFFLINE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462789
+      }
+    },
+    {
+      "uuid": "2c225a21-1150-4e10-bf62-560466c7ff1e",
+      "modificationTime": 1702462702,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink43Sink44",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": [
+        "3e6e225c-942d-47dd-b3b8-619f1afe07e6",
+        "63c12852-29c8-44d4-b9c6-5b69b2897fe3"
+      ],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "ACTIVE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462701
+      }
+    },
+    {
+      "uuid": "2e2ac8fe-2e8d-48e5-8eaa-5e9c84b3aded",
+      "modificationTime": 1702462786,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink67Sink68",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": [
+        "3cfc53cb-b646-410b-93ba-d4f93a2a1484",
+        "682ca367-0f68-43f4-8f71-cff83c721efb"
+      ],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "INACTIVE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462785
+      }
+    },
+    {
+      "uuid": "52ce81d4-fc76-48df-b291-a080a8d39fd6",
+      "modificationTime": 1702462784,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink35Sink36",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": [
+        "f9c15405-b6e9-4684-b557-5d79999d0aaa",
+        "b863dafd-a9b3-4ec5-b4b5-58e7fb1c12a3"
+      ],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "ACTIVE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462782
+      }
+    },
+    {
+      "uuid": "5821bd09-de76-4245-b715-56f69fba52e8",
+      "modificationTime": 1702462792,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink63Sink64",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": [
+        "2d8e69f7-ad94-41d1-adf2-7e50c451c525",
+        "2ddac0bb-1dc6-42cb-903b-8f1035f2f937"
+      ],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "ACTIVE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462791
+      }
+    },
+    {
+      "uuid": "59bc5534-1cda-499f-a0cd-cbbe434f2b68",
+      "modificationTime": 1702462782,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink33Sink34",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": [
+        "9f63fa04-281b-446f-a34a-404d357e7bab",
+        "ba7b0f71-6c1a-4352-9ac0-0461cc2bb5eb"
+      ],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "ACTIVE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462781
+      }
+    },
+    {
+      "uuid": "6700c86e-2875-463e-9419-96e9add45132",
+      "modificationTime": 1702462792,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink37Sink38",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": [
+        "3dabb39d-bc52-4b8f-a462-b78fa45cae57",
+        "a4acb557-3959-4c53-a4cc-703b9aaa95d0"
+      ],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "ACTIVE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462790
+      }
+    },
+    {
+      "uuid": "688f5879-6960-4b4d-9c2f-d8a2b3123520",
+      "modificationTime": 1702462796,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink57Sink58",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": [
+        "cf58a7c8-4aed-4edf-86a6-d7a5508a003c",
+        "97776ed2-4ee3-4142-aa54-6ed66ca57f04"
+      ],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "ACTIVE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462794
+      }
+    },
+    {
+      "uuid": "6f4364c4-755d-426a-a523-9bdc55081598",
+      "modificationTime": 1702462774,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink73Sink74",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": [
+        "1dc9fdd5-86b2-4a6b-95c3-6beb2faff402",
+        "4d77c1fb-6a8c-408e-b4f8-962d0bcb263e"
+      ],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "ACTIVE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462773
+      }
+    },
+    {
+      "uuid": "7221cd2e-3929-4c04-9ade-2e17f42c7e54",
+      "modificationTime": 1702462790,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink29Sink30",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": [
+        "9982f50b-a0f6-43f4-b031-5ffaed8e889e",
+        "1bc2ed3c-3881-4f08-a560-603998e14bba"
+      ],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "ACTIVE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462786
+      }
+    },
+    {
+      "uuid": "748893b6-9815-497e-b4f8-f6fd8cdb53c1",
+      "modificationTime": 1702462796,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink65Sink66",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": [
+        "09eefc5b-5fa2-4a0b-b0de-e395d553ad78",
+        "235f0ee1-6637-4c9e-a697-9522695e289c"
+      ],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "ACTIVE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462794
+      }
+    },
+    {
+      "uuid": "81dab691-a970-410e-a70c-a80d69d0ad22",
+      "modificationTime": 1702462784,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink31Sink32",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": [
+        "28ea3ddc-f7b9-4a0e-b6d0-587e75d2b3c3",
+        "dfeffb28-69a0-48d8-ab73-51374911c056"
+      ],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "ACTIVE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462782
+      }
+    },
+    {
+      "uuid": "8746935f-9357-416e-9bf6-0c5f7f168be0",
+      "modificationTime": 1702462672,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink1Sink2",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": [
+        "5b7f4b94-36e7-4985-8843-eb821b11d274",
+        "ba03c9e0-fb45-4f1c-8841-3a33bb4fa1e4"
+      ],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "ACTIVE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462671
+      }
+    },
+    {
+      "uuid": "8961a254-0372-484d-9dfb-c820c2a97ef3",
+      "modificationTime": 1702462786,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink3Sink4",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": [
+        "653301fd-d481-4c0b-a703-9c1d45023cac",
+        "ea171f5b-9697-4001-b73a-3b5e4f75983a"
+      ],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "ACTIVE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462785
+      }
+    },
+    {
+      "uuid": "8ea928ca-47d8-4be7-b046-55cbe9b256a4",
+      "modificationTime": 1702462790,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink69Sink70",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": [
+        "d47b54db-aec4-4a39-bfe2-9292a9f99b82",
+        "f63ef634-55b8-46cf-a098-835e929f1b3a"
+      ],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "ACTIVE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462786
+      }
+    },
+    {
+      "uuid": "8f1374f2-8c89-4a8e-a30b-965acb9564b6",
+      "modificationTime": 1702462774,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink55Sink56",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": [
+        "3a43a3d7-9115-45e3-836b-e3475765671d",
+        "a46fc757-f54d-4720-9223-ed3ba6ef12f3"
+      ],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "ACTIVE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462770
+      }
+    },
+    {
+      "uuid": "9220929a-033b-42c3-a5dc-ca364ca7da06",
+      "modificationTime": 1702462790,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink13Sink14",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": [
+        "2a6b4ce6-cb7f-4131-9e4c-4959d874bff3",
+        "09265947-931c-4e9d-a06b-6766add58cff"
+      ],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "ACTIVE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462788
+      }
+    },
+    {
+      "uuid": "96e7d5cf-e72c-43a4-9efa-205c52b2aca7",
+      "modificationTime": 1702462794,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink11Sink12",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": [
+        "ae3996cf-9943-4e8c-8008-9f0a819a24b5",
+        "13a93b8d-0eef-4006-93f2-595c3d0fc60b"
+      ],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "ACTIVE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462792
+      }
+    },
+    {
+      "uuid": "9c9f2068-f54c-4431-acf4-8b09f5101c2b",
+      "modificationTime": 1702462792,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink27Sink28",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": [
+        "2e0b2c12-b204-4b4d-b378-b158aeb9438e",
+        "dff73a68-41e1-4902-a152-2d14c6aa0f30"
+      ],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "ACTIVE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462790
+      }
+    },
+    {
+      "uuid": "9db56a95-e444-4c02-93c9-8b66424fbec3",
+      "modificationTime": 1702462794,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink23Sink24",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": [
+        "f5fce914-1d63-4aa9-9c63-c3ef62a9b434",
+        "484e827f-b499-41eb-af61-f080b37b2a33"
+      ],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "ACTIVE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462792
+      }
+    },
+    {
+      "uuid": "a04ef579-a403-4749-b5f8-a17458057693",
+      "modificationTime": 1702462796,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink15Sink16",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": [
+        "25826786-6151-4709-9994-878849f2e8d5",
+        "4605358c-5417-4048-be2d-f7b595433a79"
+      ],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "ACTIVE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462795
+      }
+    },
+    {
+      "uuid": "a17b14fc-b39d-4854-9dbe-eed4f04fd0eb",
+      "modificationTime": 1702462782,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink17Sink18",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": [
+        "da634759-f198-40f3-8d4f-cdf0c11f1022",
+        "61826551-0735-450c-be60-c6cb6ae601b3"
+      ],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "ACTIVE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462781
+      }
+    },
+    {
+      "uuid": "a55f2c1d-c81c-42a4-81e1-539c65b32b40",
+      "modificationTime": 1702462796,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink47Sink48",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": [
+        "ae07646d-a211-4bd9-9fd6-21b6aea4c2d4",
+        "f707b4d1-2032-428b-b0a9-0deff0db6203"
+      ],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "ACTIVE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462796
+      }
+    },
+    {
+      "uuid": "ab8b0474-16bd-4734-936f-997a04fea496",
+      "modificationTime": 1702462796,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink51Sink52",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": [
+        "43778dcd-d7fd-464b-9294-cb8791f079da",
+        "6b8a87d1-e584-4154-96fd-1a0313c2a120"
+      ],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "ACTIVE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462794
+      }
+    },
+    {
+      "uuid": "ce5e4314-9059-4531-b2f2-39c11b804321",
+      "modificationTime": 1702462774,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink5Sink6",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": [
+        "80188c6b-0a29-485f-a713-2728786735ec",
+        "d97a7e2e-0c18-4e01-ac43-ea58aaf8683e"
+      ],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "ACTIVE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462772
+      }
+    },
+    {
+      "uuid": "cf7f3956-3ebb-4d9c-9e80-01adb661f644",
+      "modificationTime": 1702462794,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink71Sink72",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": [
+        "eb4ad336-9512-4922-b669-4d9317eafe53",
+        "29bda5f2-b484-4180-9213-ad831c59f172"
+      ],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "ACTIVE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462792
+      }
+    },
+    {
+      "uuid": "d0c35a4b-3619-4b70-8c50-e3e0be802fce",
+      "modificationTime": 1702462794,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink19Sink20",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": [
+        "d53959ff-796a-47e4-9a7f-b6af3b925f62",
+        "cc3405b5-35e0-4586-aa93-312d39630eef"
+      ],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "ACTIVE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462792
+      }
+    },
+    {
+      "uuid": "d67bcfd5-4b1b-4b8d-97b8-c8bf425e5e71",
+      "modificationTime": 1702462740,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink75Sink76",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": ["6f7ecca4-b0ed-4423-a0ea-7f891792c530"],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "ACTIVE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462738
+      }
+    },
+    {
+      "uuid": "e856bf12-bd8c-4dd6-bcd0-f2f424947da6",
+      "modificationTime": 1702462722,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink41Sink42",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": [
+        "da89a8a3-0b50-4005-87de-70c5c608a0dd",
+        "39105554-4918-4877-8378-5afd5f2f4d33"
+      ],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "ACTIVE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462719
+      }
+    },
+    {
+      "uuid": "f264c288-7df7-4fda-bfd1-841e97f3c262",
+      "modificationTime": 1702462774,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink39Sink40",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": [
+        "d268573e-40f6-4487-a9af-54a53de7b0b9",
+        "609ec79f-1472-47b2-9a15-173e97904e4d"
+      ],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "ACTIVE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462773
+      }
+    },
+    {
+      "uuid": "f37c3d45-c8fc-4559-94fd-7fb2e43492c4",
+      "modificationTime": 1702462786,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink49Sink50",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": [
+        "84f0ca60-52b8-4ec9-a032-f5fc6df77515",
+        "de477dce-5e09-4ee6-90e2-35126eef686a"
+      ],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "ACTIVE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462785
+      }
+    },
+    {
+      "uuid": "f6eaf8a0-af55-4e78-82a0-2c534912341d",
+      "modificationTime": 1702462720,
+      "description": "Automatically created on received traffic",
+      "gatewayId": "gatewaySink53Sink54",
+      "networkUuid": "fd10a8b9-c9f2-4c88-86f3-b96c52fde007",
+      "sinkNodes": [
+        "2ba7726b-35bb-4404-b9bf-cee5c411d6b9",
+        "709ad65f-111d-4a31-a48f-32726f5e6942"
+      ],
+      "model": "Simulated Gateway",
+      "version": "1.4.4.4",
+      "status": "ACTIVE",
+      "gatewayStatistics": {
+        "lastMessageRxTime": 1702462719
+      }
+    }
+  ],
+  "metadata": {
+    "resultsCount": 38
+  }
+}
