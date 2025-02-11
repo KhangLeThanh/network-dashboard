@@ -2,6 +2,8 @@ import { Paper } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 import StatusLineChart from "./StatusLineChart";
 import { HistorySamples } from "../../../utils/types";
+import customTheme from "../../../theme/customTheme";
+import { PALATTE_ERROR_MAIN_COLOR } from "../../../constant/constantColor";
 
 type LineChartProps = {
   data: HistorySamples[];
@@ -17,8 +19,8 @@ const LineChart = ({ data }: LineChartProps) => {
             data={data}
             statusKey="active"
             label="Active: "
-            borderColor="#4caf50"
-            backgroundColor="rgba(76, 175, 80, 0.2)"
+            borderColor={customTheme.palette.primary.main}
+            backgroundColor={customTheme.palette.primary.main}
           />
         </Paper>
       </Grid>
@@ -55,7 +57,7 @@ const LineChart = ({ data }: LineChartProps) => {
             statusKey="offline"
             label="Offline: "
             borderColor="#f44336"
-            backgroundColor=" rgba(244, 67, 54, 0.2)"
+            backgroundColor={PALATTE_ERROR_MAIN_COLOR}
           />
         </Paper>
       </Grid>

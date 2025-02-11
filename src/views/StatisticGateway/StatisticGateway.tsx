@@ -7,9 +7,11 @@ import Breadcrumbs from "@mui/material/Breadcrumbs";
 const StatisticGateway = () => {
   const { gatewayId } = useParams<{ gatewayId: string }>();
   const breadcrumbs = [
-    <Link to="/">Home</Link>,
-    <Typography key="3" sx={{ color: "text.primary" }}>
-      Statistic {gatewayId}
+    <Link key="1" to="/">
+      Home
+    </Link>,
+    <Typography key="2" sx={{ color: "text.primary" }}>
+      History Status Of {gatewayId}
     </Typography>,
   ];
   return (

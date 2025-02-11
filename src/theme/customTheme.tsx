@@ -52,16 +52,29 @@ export default createTheme(theme, {
           style: {
             fontSize: "1.075rem",
             "&:hover": {
-              backgroundColor: "#DCE9F4",
+              backgroundColor: "rgb(255 177 164)",
             },
           },
         },
       ],
     },
+    MuiBreadcrumbs: {
+      styleOverrides: {
+        ol: {
+          "& a": {
+            color: PALATTE_PRIMARY_MAIN_COLOR,
+            textDecoration: "none",
+            "&:hover": {
+              color: "rgb(255 177 164)",
+            },
+          },
+        },
+      },
+    },
     MuiTable: {
       styleOverrides: {
         root: {
-          fontSize: "1.2rem", // Adjust overall table font size
+          fontSize: "1.2rem",
         },
       },
     },

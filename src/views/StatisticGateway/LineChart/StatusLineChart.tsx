@@ -10,6 +10,7 @@ import {
   Legend,
   ChartOptions,
   TooltipItem,
+  Filler,
 } from "chart.js";
 import { HistorySamples } from "../../../utils/types";
 
@@ -21,7 +22,8 @@ ChartJS.register(
   LineElement,
   Title,
   Tooltip,
-  Legend
+  Legend,
+  Filler
 );
 
 type StatusLineChartProps = {
