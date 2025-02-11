@@ -14,11 +14,13 @@ import Grid from "@mui/material/Grid2";
 import MoreHorizOutlinedIcon from "@mui/icons-material/MoreHorizOutlined";
 import { Gateway } from "../../utils/types";
 import gatewayData from "../../data/gateway_listing_response.json";
+import { changeColourOfflineStatus } from "../../functions/function";
 import FilteredGateway from "./FilteredGateway";
 import EditGatewayDialog from "./EditGatewayDialog";
 import GatewayTableMenuAction from "./GatewayTableMenuAction"; // Import the new component
 import { PALATTE_ERROR_MAIN_COLOR } from "../../constant/constantColor";
 import { GatewayStatus } from "../../utils/enum";
+import customTheme from "../../theme/customTheme";
 
 const GatewayTable: React.FC = () => {
   const [gateways, setGateways] = useState<Gateway[]>([]);
@@ -180,13 +182,37 @@ const GatewayTable: React.FC = () => {
                       gateway.status === GatewayStatus.OFFLINE
                         ? PALATTE_ERROR_MAIN_COLOR
                         : "transparent",
+                    "&:hover": {
+                      backgroundColor:
+                        gateway.status === GatewayStatus.OFFLINE
+                          ? customTheme.palette.primary.light
+                          : customTheme.palette.background.paper,
+                    },
                   }}
                 >
-                  <TableCell>{gateway.gatewayId}</TableCell>
-                  <TableCell>{gateway.status}</TableCell>
-                  <TableCell>{gateway.model}</TableCell>
-                  <TableCell>{gateway.version}</TableCell>
-                  <TableCell>
+                  <TableCell
+                    sx={{ color: changeColourOfflineStatus(gateway.status) }}
+                  >
+                    {gateway.gatewayId}
+                  </TableCell>
+                  <TableCell
+                    sx={{ color: changeColourOfflineStatus(gateway.status) }}
+                  >
+                    {gateway.status}
+                  </TableCell>
+                  <TableCell
+                    sx={{ color: changeColourOfflineStatus(gateway.status) }}
+                  >
+                    {gateway.model}
+                  </TableCell>
+                  <TableCell
+                    sx={{ color: changeColourOfflineStatus(gateway.status) }}
+                  >
+                    {gateway.version}
+                  </TableCell>
+                  <TableCell
+                    sx={{ color: changeColourOfflineStatus(gateway.status) }}
+                  >
                     {new Date(
                       gateway.gatewayStatistics.lastMessageRxTime * 1000
                     ).toLocaleString()}

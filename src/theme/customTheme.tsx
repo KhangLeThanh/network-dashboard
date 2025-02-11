@@ -16,9 +16,9 @@ const theme = createTheme({
 export default createTheme(theme, {
   palette: {
     primary: {
-      light: "#6477A2",
+      light: "rgb(255 177 164)",
       main: PALATTE_PRIMARY_MAIN_COLOR,
-      dark: "#1565c0",
+      dark: "rgb(217 144 132)",
     },
     secondary: {
       dark: "#3A3A3A",
@@ -76,7 +76,7 @@ export default createTheme(theme, {
       styleOverrides: {
         root: {
           "&:hover": {
-            backgroundColor: "#f9f9f9",
+            backgroundColor: "#F7F7F7",
           },
         },
       },
