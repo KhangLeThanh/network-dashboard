@@ -220,18 +220,10 @@ const GatewayTable: React.FC = () => {
                   <TableCell>
                     <IconButton
                       onClick={(event) => handleMenuClick(event, gateway)}
+                      sx={{ color: changeColourOfflineStatus(gateway.status) }}
                     >
                       <MoreHorizOutlinedIcon />
                     </IconButton>
-
-                    {/* // Menu Action */}
-                    <GatewayTableMenuAction
-                      anchorEl={anchorEl}
-                      selectedGateway={selectedGateway}
-                      handleMenuClick={handleMenuClick}
-                      handleClose={handleClose}
-                      handleEditMenuItemClick={handleEditMenuItemClick}
-                    />
                   </TableCell>
                 </TableRow>
               ))}
@@ -247,6 +239,14 @@ const GatewayTable: React.FC = () => {
           page={page}
           onPageChange={handleChangePage}
           onRowsPerPageChange={handleChangeRowsPerPage}
+        />
+
+        {/* // Menu Action */}
+        <GatewayTableMenuAction
+          anchorEl={anchorEl}
+          selectedGateway={selectedGateway}
+          handleClose={handleClose}
+          handleEditMenuItemClick={handleEditMenuItemClick}
         />
 
         {/* EditGatewayDialog */}

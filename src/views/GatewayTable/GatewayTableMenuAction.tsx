@@ -1,4 +1,3 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
 import { Menu, MenuItem } from "@mui/material";
 import { Gateway } from "../../utils/types";
@@ -6,11 +5,7 @@ import { Gateway } from "../../utils/types";
 type GatewayTableMenuActionProps = {
   anchorEl: HTMLElement | null;
   selectedGateway: Gateway | null;
-  handleMenuClick: (
-    event: React.MouseEvent<HTMLButtonElement>,
-    gateway: Gateway
-  ) => void;
-  handleClose: (open: boolean) => void;
+  handleClose: () => void;
   handleEditMenuItemClick: () => void;
 };
 
