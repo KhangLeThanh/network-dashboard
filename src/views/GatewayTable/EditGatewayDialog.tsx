@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import {
   Typography,
   Select,
@@ -9,6 +9,7 @@ import {
 import FormDialog from "../../components/FormDialog/FormDialog";
 import Label from "../../components/Label/Label";
 import { Gateway } from "../../utils/types";
+import { menuStatus } from "../../constant/constantMenuStatus";
 
 type EditGatewayDialogProps = {
   isOpen: boolean;
@@ -57,10 +58,9 @@ function EditGatewayDialog({
       <FormControl fullWidth margin="normal">
         <Label text="Status:" />
         <Select value={status} onChange={(e) => setStatus(e.target.value)}>
-          <MenuItem value="ACTIVE">Active</MenuItem>
-          <MenuItem value="INACTIVE">Inactive</MenuItem>
-          <MenuItem value="UNSTABLE">Unstable</MenuItem>
-          <MenuItem value="OFFLINE">Offline</MenuItem>
+          {menuStatus.map((menu) => (
+            <MenuItem value={menu.value}>{menu.title} </MenuItem>
+          ))}
         </Select>
       </FormControl>
       <Label text="Model:" />

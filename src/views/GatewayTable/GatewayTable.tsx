@@ -9,8 +9,6 @@ import {
   TablePagination,
   Typography,
   IconButton,
-  Menu,
-  MenuItem,
 } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 import MoreHorizOutlinedIcon from "@mui/icons-material/MoreHorizOutlined";
@@ -18,6 +16,7 @@ import { Gateway } from "../../utils/types";
 import gatewayData from "../../data/gateway_listing_response.json";
 import FilteredGateway from "./FilteredGateway";
 import EditGatewayDialog from "./EditGatewayDialog";
+import GatewayTableMenuAction from "./GatewayTableMenuAction"; // Import the new component
 
 const GatewayTable: React.FC = () => {
   const [gateways, setGateways] = useState<Gateway[]>([]);
@@ -135,20 +134,30 @@ const GatewayTable: React.FC = () => {
     { columnDisplayName: "Actions", columKey: "action" },
   ];
   const columns = useMemo(() => tableColumns, []);
+
   return (
     <Grid
       container
-      justifyContent="center"
-      alignItems="center"
-      sx={{ minHeight: "100vh", padding: 2 }}
+      spacing={2}
+      padding={2}
+      sx={{
+        width: "100%",
+      }}
     >
       <Grid size={12}>
-        <Typography variant="h4" align="center" gutterBottom>
-          Gateways
-        </Typography>
-        <FilteredGateway onFilterChange={handleFilterChange} />
+        <Grid container sx={{ pt: 2, pb: 2 }}>
+          <Grid size={2}>
+            <Typography variant="h4" gutterBottom>
+              Gateways Table
+            </Typography>
+          </Grid>
+          <Grid size={10}>
+            <FilteredGateway onFilterChange={handleFilterChange} />
+          </Grid>
+        </Grid>
+
         <TableContainer>
-          <Table>
+          <Table sx={{ width: "100%" }}>
             <TableHead>
               <TableRow>
                 {columns.map((col) => (
@@ -184,15 +193,15 @@ const GatewayTable: React.FC = () => {
                     >
                       <MoreHorizOutlinedIcon />
                     </IconButton>
-                    <Menu
+
+                    {/* // Menu Action */}
+                    <GatewayTableMenuAction
                       anchorEl={anchorEl}
-                      open={Boolean(anchorEl)}
-                      onClose={handleClose}
-                    >
-                      <MenuItem onClick={handleEditMenuItemClick}>
-                        Edit
-                      </MenuItem>
-                    </Menu>
+                      selectedGateway={selectedGateway}
+                      handleMenuClick={handleMenuClick}
+                      handleClose={handleClose}
+                      handleEditMenuItemClick={handleEditMenuItemClick}
+                    />
                   </TableCell>
                 </TableRow>
               ))}

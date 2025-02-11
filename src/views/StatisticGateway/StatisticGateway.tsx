@@ -1,20 +1,30 @@
-import LineChart from "./LineChart";
-import BarChart from "./BarChart";
+import { Link, useParams } from "react-router-dom";
+import { Box, Typography } from "@mui/material";
+import LineChart from "./LineChart/LineChart";
 import gatewayData from "../../data/single_gateway_stats.json";
+import Breadcrumbs from "@mui/material/Breadcrumbs";
 
 const StatisticGateway = () => {
+  const { gatewayId } = useParams<{ gatewayId: string }>();
+  const breadcrumbs = [
+    <Link to="/">Home</Link>,
+    <Typography key="3" sx={{ color: "text.primary" }}>
+      Statistic {gatewayId}
+    </Typography>,
+  ];
   return (
-    <div style={{ width: "100%", height: "100vh" }}>
-      {/* Line chart */}
-      <div style={{ height: "50%", marginBottom: "20px" }}>
-        <LineChart data={gatewayData.historySamples} />
-      </div>
-
-      {/* Bar chart */}
-      <div style={{ height: "50%" }}>
-        <BarChart data={gatewayData.historySamples} />
-      </div>
-    </div>
+    <>
+      <Box sx={{ padding: "2rem 1rem" }}>
+        <Breadcrumbs separator="›" aria-label="breadcrumb">
+          {breadcrumbs}
+        </Breadcrumbs>
+      </Box>
+      <Box sx={{ width: "100%", height: "100vh" }}>
+        <Box sx={{ height: "33%", marginBottom: "20px" }}>
+          <LineChart data={gatewayData.historySamples} />
+        </Box>
+      </Box>
+    </>
   );
 };
 

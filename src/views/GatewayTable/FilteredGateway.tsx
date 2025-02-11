@@ -1,5 +1,6 @@
-import React, { useState, useEffect, useCallback } from "react";
-import { Select, MenuItem, TextField, Button } from "@mui/material";
+import { useState, useEffect, useCallback } from "react";
+import { Select, MenuItem, TextField, Button, Box } from "@mui/material";
+import { menuStatus } from "../../constant/constantMenuStatus";
 
 type FilteredGatewayProps = {
   onFilterChange: (filters: {
@@ -9,9 +10,7 @@ type FilteredGatewayProps = {
   }) => void;
 };
 
-const FilteredGateway: React.FC<FilteredGatewayProps> = ({
-  onFilterChange,
-}) => {
+function FilteredGateway({ onFilterChange }: FilteredGatewayProps) {
   const [statusFilter, setStatusFilter] = useState("");
   const [modelFilter, setModelFilter] = useState("");
   const [versionFilter, setVersionFilter] = useState("");
@@ -35,32 +34,34 @@ const FilteredGateway: React.FC<FilteredGatewayProps> = ({
   };
 
   return (
-    <div>
+    <Box>
       <Select
+        sx={{ mr: 2 }}
         value={statusFilter}
         onChange={(e) => setStatusFilter(e.target.value)}
         displayEmpty
         renderValue={(selected) => (selected ? selected : "All Status")}
       >
         <MenuItem value="">All Status</MenuItem>
-        <MenuItem value="ACTIVE">Active</MenuItem>
-        <MenuItem value="INACTIVE">Inactive</MenuItem>
-        <MenuItem value="UNSTABLE">Unstable</MenuItem>
-        <MenuItem value="OFFLINE">Offline</MenuItem>
+        {menuStatus.map((menu) => (
+          <MenuItem value={menu.value}>{menu.title} </MenuItem>
+        ))}
       </Select>
       <TextField
         label="Model"
         value={modelFilter}
         onChange={(e) => setModelFilter(e.target.value)}
+        sx={{ mr: 2 }}
       />
       <TextField
         label="Version"
         value={versionFilter}
         onChange={(e) => setVersionFilter(e.target.value)}
+        sx={{ mr: 2 }}
       />
       <Button onClick={resetFilters}>Reset</Button>
-    </div>
+    </Box>
   );
-};
+}
 
 export default FilteredGateway;

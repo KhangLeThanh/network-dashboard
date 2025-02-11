@@ -10,6 +10,16 @@ export type Gateway = {
   };
 };
 
+export type HistorySamples = {
+  startTime: number;
+  endTime: number;
+  timeInStatusesS: {
+    active: number;
+    inactive: number;
+    unstable: number;
+    offline: number;
+  };
+};
 export type GatewayStats = {
   snapshotTime: number;
   summary: {
