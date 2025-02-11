@@ -9,7 +9,6 @@ type LineChartProps = {
   data: HistorySamples[];
 };
 
-// Main Component Rendering All Status Charts
 const LineChart = ({ data }: LineChartProps) => {
   return (
     <Grid container spacing={2} padding={2}>
