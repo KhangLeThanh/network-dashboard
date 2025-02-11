@@ -59,7 +59,9 @@ function EditGatewayDialog({
         <Label text="Status:" />
         <Select value={status} onChange={(e) => setStatus(e.target.value)}>
           {menuStatus.map((menu) => (
-            <MenuItem value={menu.value}>{menu.title} </MenuItem>
+            <MenuItem key={menu.value} value={menu.value}>
+              {menu.title}{" "}
+            </MenuItem>
           ))}
         </Select>
       </FormControl>

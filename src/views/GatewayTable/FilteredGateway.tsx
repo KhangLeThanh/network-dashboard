@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from "react";
 import { Select, MenuItem, TextField, Button, Box } from "@mui/material";
 import { menuStatus } from "../../constant/constantMenuStatus";
+import { UIButtonVariants } from "../../utils/enum";
 
 type FilteredGatewayProps = {
   onFilterChange: (filters: {
@@ -44,7 +45,9 @@ function FilteredGateway({ onFilterChange }: FilteredGatewayProps) {
       >
         <MenuItem value="">All Status</MenuItem>
         {menuStatus.map((menu) => (
-          <MenuItem value={menu.value}>{menu.title} </MenuItem>
+          <MenuItem key={menu.value} value={menu.value}>
+            {menu.title}{" "}
+          </MenuItem>
         ))}
       </Select>
       <TextField
@@ -59,7 +62,9 @@ function FilteredGateway({ onFilterChange }: FilteredGatewayProps) {
         onChange={(e) => setVersionFilter(e.target.value)}
         sx={{ mr: 2 }}
       />
-      <Button onClick={resetFilters}>Reset</Button>
+      <Button variant={UIButtonVariants.CONTAINED} onClick={resetFilters}>
+        Reset
+      </Button>
     </Box>
   );
 }
