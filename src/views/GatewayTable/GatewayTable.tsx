@@ -17,6 +17,8 @@ import gatewayData from "../../data/gateway_listing_response.json";
 import FilteredGateway from "./FilteredGateway";
 import EditGatewayDialog from "./EditGatewayDialog";
 import GatewayTableMenuAction from "./GatewayTableMenuAction"; // Import the new component
+import { PALATTE_ERROR_MAIN_COLOR } from "../../constant/constantColor";
+import { GatewayStatus } from "../../utils/enum";
 
 const GatewayTable: React.FC = () => {
   const [gateways, setGateways] = useState<Gateway[]>([]);
@@ -175,7 +177,9 @@ const GatewayTable: React.FC = () => {
                   key={gateway.uuid}
                   sx={{
                     backgroundColor:
-                      gateway.status === "OFFLINE" ? "red" : "transparent",
+                      gateway.status === GatewayStatus.OFFLINE
+                        ? PALATTE_ERROR_MAIN_COLOR
+                        : "transparent",
                   }}
                 >
                   <TableCell>{gateway.gatewayId}</TableCell>
@@ -209,14 +213,6 @@ const GatewayTable: React.FC = () => {
           </Table>
         </TableContainer>
 
-        {/* EditGatewayDialog */}
-        <EditGatewayDialog
-          isOpen={editDialogOpen}
-          onClose={() => setEditDialogOpen(false)}
-          onConfirm={handleEditConfirm}
-          gateway={selectedGateway}
-        />
-
         <TablePagination
           rowsPerPageOptions={[5, 10, 20]}
           component="div"
@@ -225,6 +221,14 @@ const GatewayTable: React.FC = () => {
           page={page}
           onPageChange={handleChangePage}
           onRowsPerPageChange={handleChangeRowsPerPage}
+        />
+
+        {/* EditGatewayDialog */}
+        <EditGatewayDialog
+          isOpen={editDialogOpen}
+          onClose={() => setEditDialogOpen(false)}
+          onConfirm={handleEditConfirm}
+          gateway={selectedGateway}
         />
       </Grid>
     </Grid>

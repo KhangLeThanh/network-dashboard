@@ -58,6 +58,44 @@ export default createTheme(theme, {
         },
       ],
     },
+    MuiTable: {
+      styleOverrides: {
+        root: {
+          fontSize: "1.2rem", // Adjust overall table font size
+        },
+      },
+    },
+    MuiTableHead: {
+      styleOverrides: {
+        root: {
+          backgroundColor: "#f0f0f0",
+        },
+      },
+    },
+    MuiTableRow: {
+      styleOverrides: {
+        root: {
+          "&:hover": {
+            backgroundColor: "#f9f9f9",
+          },
+        },
+      },
+    },
+    MuiTableCell: {
+      styleOverrides: {
+        root: {
+          fontSize: "1.2rem",
+          padding: "12px 16px",
+        },
+        head: {
+          fontWeight: "bold",
+          fontSize: "1.3rem",
+        },
+        body: {
+          fontSize: "1.01rem",
+        },
+      },
+    },
     MuiTypography: {
       variants: [
         {
