@@ -1,3 +1,4 @@
+import React from "react";
 import { useState, useEffect, useCallback } from "react";
 import { Select, MenuItem, TextField, Button, Box } from "@mui/material";
 import { menuStatus } from "../../constant/constantMenuStatus";
@@ -55,6 +56,7 @@ function FilteredGateway({ onFilterChange }: FilteredGatewayProps) {
         value={modelFilter}
         onChange={(e) => setModelFilter(e.target.value)}
         sx={{ mr: 2 }}
+        data-testid="model-filter"
       />
       <TextField
         label="Version"

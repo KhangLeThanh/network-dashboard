@@ -1,26 +1,22 @@
 {
   "compilerOptions": {
-    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
-    "target": "ES2020",
-    "useDefineForClassFields": true,
-    "lib": ["ES2020", "DOM", "DOM.Iterable"],
-    "module": "ESNext",
-    "skipLibCheck": true,
-
-    /* Bundler mode */
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
-    "isolatedModules": true,
-    "moduleDetection": "force",
-    "noEmit": true,
-    "jsx": "react-jsx",
-
-    /* Linting */
-    "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "target": "ESNext", // Target the latest ECMAScript version
+    "module": "ESNext", // Use ESNext module system (for ESModules)
+    "moduleResolution": "node", // Use Node module resolution
+    "jsx": "react-jsx", // Enable JSX syntax (React 17+ JSX transform)
+    "esModuleInterop": true, // Ensure compatibility with non-ESModule packages
+    "skipLibCheck": true, // Skip library type checks (for faster compilation)
+    "strict": true, // Enable all strict type checking options
+    "resolveJsonModule": true, // Allow importing JSON files as modules
+    "noEmit": true // Don't emit JavaScript files (since we use Vite for that)
   },
-  "include": ["src"]
+  "include": [
+    "src/**/*.ts", // Include TypeScript files
+    "src/**/*.tsx" // Include TypeScript JSX files
+  ],
+  "exclude": [
+    "node_modules", // Exclude node_modules from being compiled
+    "dist", // Exclude output directory (build)
+    "public" // Exclude static assets directory
+  ]
 }

@@ -68,7 +68,6 @@ const GatewayTable: React.FC = () => {
       );
     return filtered;
   }, [gateways, status, model, version]);
-
   // Sorting logic before pagination
   const sortedGateways = useMemo(() => {
     return [...filteredGateways].sort((a, b) => {
