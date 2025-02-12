@@ -7,7 +7,6 @@
 2. Install Dependencies:
    ```bash
    npm install
-   localhost:  http://localhost:5173/
    ```
 3. Run the Application:
    ```bash
