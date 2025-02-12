@@ -153,6 +153,7 @@ const GatewayTable: React.FC = () => {
     },
     { columnDisplayName: "Actions", columKey: "action" },
   ];
+  const columns = useMemo(() => tableColumns, []);
 
   return (
     <Grid container spacing={2} padding={2} sx={{ width: "100%" }}>
@@ -172,7 +173,7 @@ const GatewayTable: React.FC = () => {
           <Table sx={{ width: "100%" }}>
             <TableHead>
               <TableRow>
-                {tableColumns.map((col) => (
+                {columns.map((col) => (
                   <TableCell key={col.columKey}>
                     {col.sortable ? (
                       <TableSortLabel
