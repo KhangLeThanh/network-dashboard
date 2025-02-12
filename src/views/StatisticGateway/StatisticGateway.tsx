@@ -4,7 +4,7 @@ import LineChart from "./LineChart/LineChart";
 import gatewayData from "../../data/single_gateway_stats.json";
 import Breadcrumbs from "@mui/material/Breadcrumbs";
 
-const StatisticGateway = () => {
+const StatisticGateway: React.FC = () => {
   const { gatewayId } = useParams<{ gatewayId: string }>();
   const breadcrumbs = [
     <Link key="1" to="/">

@@ -46,13 +46,13 @@ const transformData = (
 };
 
 // Chart Component for a Single Status
-const StatusLineChart = ({
+const StatusLineChart: React.FC<StatusLineChartProps> = ({
   data,
   statusKey,
   label,
   borderColor,
   backgroundColor,
-}: StatusLineChartProps) => {
+}) => {
   const chartData = transformData(data, statusKey);
 
   const chartOptions: ChartOptions<"line"> = {

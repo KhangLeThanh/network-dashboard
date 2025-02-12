@@ -10,12 +10,12 @@ type GatewayTableMenuActionProps = {
   handleEditMenuItemClick: () => void;
 };
 
-function GatewayTableMenuAction({
+const GatewayTableMenuAction: React.FC<GatewayTableMenuActionProps> = ({
   anchorEl,
   selectedGateway,
   handleClose,
   handleEditMenuItemClick,
-}: GatewayTableMenuActionProps) {
+}) => {
   return (
     <Menu anchorEl={anchorEl} open={Boolean(anchorEl)} onClose={handleClose}>
       <MenuItem onClick={handleEditMenuItemClick}>Edit</MenuItem>
@@ -29,6 +29,6 @@ function GatewayTableMenuAction({
       </MenuItem>
     </Menu>
   );
-}
+};
 
 export default GatewayTableMenuAction;

@@ -9,7 +9,7 @@ type LineChartProps = {
   data: HistorySamples[];
 };
 
-const LineChart = ({ data }: LineChartProps) => {
+const LineChart: React.FC<LineChartProps> = ({ data }) => {
   return (
     <Grid container spacing={2} padding={2}>
       <Grid size={6}>

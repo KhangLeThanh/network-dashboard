@@ -12,7 +12,9 @@ type FilteredGatewayProps = {
   }) => void;
 };
 
-function FilteredGateway({ onFilterChange }: FilteredGatewayProps) {
+const FilteredGateway: React.FC<FilteredGatewayProps> = ({
+  onFilterChange,
+}) => {
   const [statusFilter, setStatusFilter] = useState("");
   const [modelFilter, setModelFilter] = useState("");
   const [versionFilter, setVersionFilter] = useState("");
@@ -43,6 +45,7 @@ function FilteredGateway({ onFilterChange }: FilteredGatewayProps) {
         onChange={(e) => setStatusFilter(e.target.value)}
         displayEmpty
         renderValue={(selected) => (selected ? selected : "All Status")}
+        data-testid="status-filter"
       >
         <MenuItem value="">All Status</MenuItem>
         {menuStatus.map((menu) => (
@@ -69,6 +72,6 @@ function FilteredGateway({ onFilterChange }: FilteredGatewayProps) {
       </Button>
     </Box>
   );
-}
+};
 
 export default FilteredGateway;

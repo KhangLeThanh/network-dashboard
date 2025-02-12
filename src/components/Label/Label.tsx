@@ -1,9 +1,10 @@
+import React from "react";
 import Typography from "@mui/material/Typography";
 
 type LabelProps = {
   text: string;
 };
-export default function Label({ text }: LabelProps) {
+const Label: React.FC<LabelProps> = ({ text }) => {
   return (
     <Typography
       variant="body2"
@@ -12,4 +13,5 @@ export default function Label({ text }: LabelProps) {
       {text}
     </Typography>
   );
-}
+};
+export default Label;

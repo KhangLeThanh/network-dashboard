@@ -19,12 +19,12 @@ type EditGatewayDialogProps = {
   gateway: Gateway | null;
 };
 
-function EditGatewayDialog({
+const EditGatewayDialog: React.FC<EditGatewayDialogProps> = ({
   isOpen,
   onClose,
   onConfirm,
   gateway,
-}: EditGatewayDialogProps) {
+}) => {
   const [status, setStatus] = useState("");
   const [getwayId, setGetwayId] = useState("");
   const [version, setVersion] = useState("");
@@ -72,6 +72,6 @@ function EditGatewayDialog({
       <TextField value={version} onChange={(e) => setVersion(e.target.value)} />
     </FormDialog>
   );
-}
+};
 
 export default EditGatewayDialog;

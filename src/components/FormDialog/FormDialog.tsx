@@ -21,7 +21,7 @@ const WrapperDialog = styled("div")(({ theme }) => ({
     },
   },
 }));
-type ConfirmationDialogProps = {
+type FormDialogProps = {
   isOpen: boolean;
   onClose: () => void;
   onConfirm: () => void;
@@ -31,7 +31,7 @@ type ConfirmationDialogProps = {
   children: ReactNode;
 };
 
-export default function ConfirmationDialog({
+const FormDialog: React.FC<FormDialogProps> = ({
   confirmText = "Save",
   closeText = "Cancel",
   title = "Edit",
@@ -39,7 +39,7 @@ export default function ConfirmationDialog({
   isOpen,
   onClose,
   onConfirm,
-}: ConfirmationDialogProps) {
+}) => {
   return (
     <Dialog
       open={isOpen}
@@ -101,4 +101,5 @@ export default function ConfirmationDialog({
       </WrapperDialog>
     </Dialog>
   );
-}
+};
+export default FormDialog;

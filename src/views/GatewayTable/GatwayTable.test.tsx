@@ -1,4 +1,5 @@
 import { render, screen, fireEvent, waitFor } from "@testing-library/react";
+import "@testing-library/jest-dom";
 import userEvent from "@testing-library/user-event";
 import GatewayTable from "./GatewayTable"; // Adjust the import path based on your project structure
 
@@ -79,7 +80,7 @@ describe("GatewayTable", () => {
     const modelFilterInput = screen.getByTestId("model-filter");
 
     // Use querySelector to target the actual input element inside the TextField component
-    const inputElement = modelFilterInput.querySelector("input");
+    const inputElement = modelFilterInput.querySelector("input")!;
 
     // Type "Model A" into the input element
     userEvent.type(inputElement, "Model A");
