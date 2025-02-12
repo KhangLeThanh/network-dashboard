@@ -11,3 +11,8 @@ export enum UIButtonVariants {
   TEXT = "text",
   UNDERLINED = "underlined",
 }
+
+export enum SortingDirectionEnum {
+  ASCENDING = "asc",
+  DESCENDING = "desc",
+}

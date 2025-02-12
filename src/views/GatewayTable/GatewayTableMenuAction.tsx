@@ -23,7 +23,7 @@ function GatewayTableMenuAction({
           to={`/statistic/${selectedGateway?.gatewayId}`}
           style={{ textDecoration: "none", color: "inherit" }}
         >
-          View History of Gateway
+          View History Time in Status of Gateway
         </NavLink>
       </MenuItem>
     </Menu>

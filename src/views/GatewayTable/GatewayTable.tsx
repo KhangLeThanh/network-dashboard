@@ -9,6 +9,7 @@ import {
   TablePagination,
   Typography,
   IconButton,
+  TableSortLabel,
 } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 import MoreHorizOutlinedIcon from "@mui/icons-material/MoreHorizOutlined";
@@ -17,10 +18,9 @@ import gatewayData from "../../data/gateway_listing_response.json";
 import { changeColourOfflineStatus } from "../../functions/function";
 import FilteredGateway from "./FilteredGateway";
 import EditGatewayDialog from "./EditGatewayDialog";
-import GatewayTableMenuAction from "./GatewayTableMenuAction"; // Import the new component
+import GatewayTableMenuAction from "./GatewayTableMenuAction";
 import { PALATTE_ERROR_MAIN_COLOR } from "../../constant/constantColor";
-import { GatewayStatus } from "../../utils/enum";
-import customTheme from "../../theme/customTheme";
+import { GatewayStatus, SortingDirectionEnum } from "../../utils/enum";
 
 const GatewayTable: React.FC = () => {
   const [gateways, setGateways] = useState<Gateway[]>([]);
@@ -29,6 +29,9 @@ const GatewayTable: React.FC = () => {
   const [version, setVersion] = useState<string>("");
   const [page, setPage] = useState(0);
   const [rowsPerPage, setRowsPerPage] = useState(5);
+  const [sortDirection, setSortDirection] = useState<SortingDirectionEnum>(
+    SortingDirectionEnum.DESCENDING
+  );
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const [selectedGateway, setSelectedGateway] = useState<Gateway | null>(null);
   const [editDialogOpen, setEditDialogOpen] = useState(false);
@@ -49,7 +52,7 @@ const GatewayTable: React.FC = () => {
     setStatus(status);
     setModel(model);
     setVersion(version);
-    setPage(0); // Reset pagination when filter changes
+    setPage(0); // Reset pagination when filters change
   };
 
   // Filtering the gateways based on filter criteria (status, model, version)
@@ -66,16 +69,19 @@ const GatewayTable: React.FC = () => {
     return filtered;
   }, [gateways, status, model, version]);
 
-  // Sort filtered gateways by lastMessageRxTime (most recent first)
+  // Sorting logic before pagination
   const sortedGateways = useMemo(() => {
-    return [...filteredGateways].sort(
-      (a, b) =>
-        b.gatewayStatistics.lastMessageRxTime -
-        a.gatewayStatistics.lastMessageRxTime
-    );
-  }, [filteredGateways]);
+    return [...filteredGateways].sort((a, b) => {
+      const timeA = a.gatewayStatistics.lastMessageRxTime;
+      const timeB = b.gatewayStatistics.lastMessageRxTime;
 
-  // Pagination logic
+      return sortDirection === SortingDirectionEnum.ASCENDING
+        ? timeA - timeB
+        : timeB - timeA;
+    });
+  }, [filteredGateways, sortDirection]);
+
+  // Pagination logic (applied after sorting)
   const paginatedGateways = useMemo(() => {
     const startIndex = page * rowsPerPage;
     return sortedGateways.slice(startIndex, startIndex + rowsPerPage);
@@ -92,6 +98,15 @@ const GatewayTable: React.FC = () => {
     event: React.ChangeEvent<HTMLInputElement>
   ) => {
     setRowsPerPage(parseInt(event.target.value, 10));
+    setPage(0);
+  };
+
+  const handleSortClick = () => {
+    setSortDirection((prevDirection) =>
+      prevDirection === SortingDirectionEnum.ASCENDING
+        ? SortingDirectionEnum.DESCENDING
+        : SortingDirectionEnum.ASCENDING
+    );
     setPage(0);
   };
 
@@ -125,29 +140,22 @@ const GatewayTable: React.FC = () => {
     setEditDialogOpen(false);
   };
 
-  // creating a column
+  // Columns configuration
   const tableColumns = [
     { columnDisplayName: "Gateway ID", columKey: "gatewayId" },
     { columnDisplayName: "Status", columKey: "status" },
-    { columnDisplayName: "Model", columKey: "Model" },
+    { columnDisplayName: "Model", columKey: "model" },
     { columnDisplayName: "Version", columKey: "version" },
     {
       columnDisplayName: "Last Message Time",
       columKey: "lastMessageTime",
+      sortable: true,
     },
     { columnDisplayName: "Actions", columKey: "action" },
   ];
-  const columns = useMemo(() => tableColumns, []);
 
   return (
-    <Grid
-      container
-      spacing={2}
-      padding={2}
-      sx={{
-        width: "100%",
-      }}
-    >
+    <Grid container spacing={2} padding={2} sx={{ width: "100%" }}>
       <Grid size={12}>
         <Grid container sx={{ pt: 2, pb: 2 }}>
           <Grid size={2}>
@@ -164,11 +172,23 @@ const GatewayTable: React.FC = () => {
           <Table sx={{ width: "100%" }}>
             <TableHead>
               <TableRow>
-                {columns.map((col) => (
+                {tableColumns.map((col) => (
                   <TableCell key={col.columKey}>
-                    <Typography variant="h6">
-                      {col.columnDisplayName}
-                    </Typography>
+                    {col.sortable ? (
+                      <TableSortLabel
+                        active
+                        direction={sortDirection}
+                        onClick={handleSortClick}
+                      >
+                        <Typography variant="h6">
+                          {col.columnDisplayName}
+                        </Typography>
+                      </TableSortLabel>
+                    ) : (
+                      <Typography variant="h6">
+                        {col.columnDisplayName}
+                      </Typography>
+                    )}
                   </TableCell>
                 ))}
               </TableRow>
@@ -182,12 +202,6 @@ const GatewayTable: React.FC = () => {
                       gateway.status === GatewayStatus.OFFLINE
                         ? PALATTE_ERROR_MAIN_COLOR
                         : "transparent",
-                    "&:hover": {
-                      backgroundColor:
-                        gateway.status === GatewayStatus.OFFLINE
-                          ? customTheme.palette.primary.light
-                          : customTheme.palette.background.paper,
-                    },
                   }}
                 >
                   <TableCell
@@ -241,7 +255,6 @@ const GatewayTable: React.FC = () => {
           onRowsPerPageChange={handleChangeRowsPerPage}
         />
 
-        {/* // Menu Action */}
         <GatewayTableMenuAction
           anchorEl={anchorEl}
           selectedGateway={selectedGateway}
@@ -249,7 +262,6 @@ const GatewayTable: React.FC = () => {
           handleEditMenuItemClick={handleEditMenuItemClick}
         />
 
-        {/* EditGatewayDialog */}
         <EditGatewayDialog
           isOpen={editDialogOpen}
           onClose={() => setEditDialogOpen(false)}

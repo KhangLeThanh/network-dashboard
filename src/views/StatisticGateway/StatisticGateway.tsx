@@ -11,7 +11,7 @@ const StatisticGateway = () => {
       Home
     </Link>,
     <Typography key="2" sx={{ color: "text.primary" }}>
-      History Status Of {gatewayId}
+      History Time in Status Of {gatewayId}
     </Typography>,
   ];
   return (

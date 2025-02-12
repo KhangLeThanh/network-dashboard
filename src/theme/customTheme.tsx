@@ -89,7 +89,7 @@ export default createTheme(theme, {
       styleOverrides: {
         root: {
           "&:hover": {
-            backgroundColor: "#F7F7F7",
+            backgroundColor: "rgb(255 177 164)",
           },
         },
       },
