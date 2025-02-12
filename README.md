@@ -7,12 +7,13 @@
 2. Install Dependencies:
    ```bash
    npm install
+   localhost:  http://localhost:5173/
    ```
 3. Run the Application:
    ```bash
    npm run dev
    ```
-4. Run Testn:
+4. Run Test:
    ```bash
    npm run test
    ```
