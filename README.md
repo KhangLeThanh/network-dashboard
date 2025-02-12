@@ -64,3 +64,11 @@
    ```bash
    git clone https://github.com/your-repository/network-dashboard.git
    ```
+2. Install Dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the Application:
+   ```bash
+   npm run dev
+   ```
