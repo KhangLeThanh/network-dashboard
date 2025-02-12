@@ -1,3 +1,22 @@
+## 💻 Installation & Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repository/network-dashboard.git
+   ```
+2. Install Dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the Application:
+   ```bash
+   npm run dev
+   ```
+4. Run Testn:
+   ```bash
+   npm run test
+   ```
+
 # Network Dashboard
 
 🚀 **Tech Stack**
@@ -53,24 +72,3 @@
 
 - **Gateway Table**: You can filter by Status, Model, and Version. Once sorted, it will display the most recent gateway at the top.
 - **Statistic Gateway**: The page will show line charts that track how much time each gateway spent in different statuses.
-
----
-
-## 💻 Installation & Setup
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-repository/network-dashboard.git
-   ```
-2. Install Dependencies:
-   ```bash
-   npm install
-   ```
-3. Run the Application:
-   ```bash
-   npm run dev
-   ```
-4. Run Testn:
-   ```bash
-   npm run test
-   ```
