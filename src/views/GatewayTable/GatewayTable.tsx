@@ -61,7 +61,9 @@ const GatewayTable: React.FC = () => {
     if (status)
       filtered = filtered.filter((gateway) => gateway.status === status);
     if (model)
-      filtered = filtered.filter((gateway) => gateway.model.includes(model));
+      filtered = filtered.filter((gateway) =>
+        gateway.model.toLowerCase().includes(model.toLowerCase())
+      );
     if (version)
       filtered = filtered.filter((gateway) =>
         gateway.version.includes(version)
