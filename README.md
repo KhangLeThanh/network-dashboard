@@ -2,9 +2,7 @@
 
 🚀 **Tech Stack**
 
-- **ReactJS** – Frontend framework
-- **TypeScript** – Statically typed JavaScript
-- **Material-UI** – UI components
+- ReactJS, TypeScript, and MaterialUI
 
 ## 📌 Overview
 
