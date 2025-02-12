@@ -142,16 +142,16 @@ const GatewayTable: React.FC = () => {
 
   // Columns configuration
   const tableColumns = [
-    { columnDisplayName: "Gateway ID", columKey: "gatewayId" },
-    { columnDisplayName: "Status", columKey: "status" },
-    { columnDisplayName: "Model", columKey: "model" },
-    { columnDisplayName: "Version", columKey: "version" },
+    { columnDisplayName: "Gateway ID", columKey: "gatewayId", sortable: false },
+    { columnDisplayName: "Status", columKey: "status", sortable: false },
+    { columnDisplayName: "Model", columKey: "model", sortable: false },
+    { columnDisplayName: "Version", columKey: "version", sortable: false },
     {
       columnDisplayName: "Last Message Time",
       columKey: "lastMessageTime",
       sortable: true,
     },
-    { columnDisplayName: "Actions", columKey: "action" },
+    { columnDisplayName: "Actions", columKey: "action", sortable: false },
   ];
   const columns = useMemo(() => tableColumns, []);
 
