@@ -26,14 +26,12 @@ const EditGatewayDialog: React.FC<EditGatewayDialogProps> = ({
   gateway,
 }) => {
   const [status, setStatus] = useState("");
-  const [getwayId, setGetwayId] = useState("");
   const [version, setVersion] = useState("");
   const [model, setModel] = useState("");
 
   useEffect(() => {
     if (gateway) {
       setStatus(gateway.status);
-      setGetwayId(gateway.gatewayId);
       setVersion(gateway.version);
       setModel(gateway.model);
     }
@@ -55,7 +53,7 @@ const EditGatewayDialog: React.FC<EditGatewayDialogProps> = ({
       onConfirm={handleConfirm}
     >
       <Label text="Gateway Id:" />
-      <Typography variant="body1">{getwayId}</Typography>
+      <Typography variant="body1">{gateway?.gatewayId}</Typography>
       <FormControl fullWidth margin="normal">
         <Label text="Status:" />
         <Select value={status} onChange={(e) => setStatus(e.target.value)}>
@@ -67,9 +65,15 @@ const EditGatewayDialog: React.FC<EditGatewayDialogProps> = ({
         </Select>
       </FormControl>
       <Label text="Model:" />
-      <TextField value={model} onChange={(e) => setModel(e.target.value)} />
+      <TextField
+        value={model}
+        onChange={({ target: { value } }) => setModel(value)}
+      />
       <Label text="Version:" />
-      <TextField value={version} onChange={(e) => setVersion(e.target.value)} />
+      <TextField
+        value={version}
+        onChange={({ target: { value } }) => setVersion(value)}
+      />
     </FormDialog>
   );
 };
