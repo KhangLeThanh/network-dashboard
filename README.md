@@ -70,3 +70,7 @@
    ```bash
    npm run dev
    ```
+4. Run Testn:
+   ```bash
+   npm run test
+   ```
